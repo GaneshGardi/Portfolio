@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Lato:wght@100&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Lato:ital@1&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Lato:ital@1&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Zain:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@572&family=Italiana&family=Zain:wght@300;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('../src/assets/fonts/Cascadia\ Mono\ ExtraLight\ 200.otf');
+}
+
+ /*----------------------------------------------------------1--------------------------------------------------------------*/
+/* Define your custom theme styles */
+.tippy-box[data-theme~='orange-theme'] {
+    background-color: #E06D4C; /* Custom background color */
+    color: black; /* Custom text color */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Font size */
+    padding: 2px; /* Padding inside the tooltip */
+    font-family:Arial, Helvetica, sans-serif;
+    ;
+   
+  }
+
+  /* Custom arrow styles */
+.tippy-box[data-theme~='orange-theme'] .tippy-arrow {
+    color: #E06D4C; /* Arrow color should match the background color */
+  }
+
+
+  /*----------------------------------------------------------2--------------------------------------------------------------*/
+/* Define your custom theme styles */
+.tippy-box[data-theme~='yellow-theme'] {
+    background-color: #E8AA42; /* Custom background color */
+    color: black; /* Custom text color */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Font size */
+    padding: 2px; /* Padding inside the tooltip */
+    font-family:Arial, Helvetica, sans-serif;
+    ;
+   
+  }
+
+  /* Custom arrow styles */
+.tippy-box[data-theme~='yellow-theme'] .tippy-arrow {
+    color: #E8AA42; /* Arrow color should match the background color */
+  }
+
+
+   /*----------------------------------------------------------3--------------------------------------------------------------*/
+
+   .tippy-box[data-theme~='cyan-theme'] {
+    background-color: #36BA98; /* Custom background color */
+    color: black; /* Custom text color */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Font size */
+    padding: 2px; /* Padding inside the tooltip */
+    font-family:Arial, Helvetica, sans-serif;
+    ;
+   
+  }
+
+  /* Custom arrow styles */
+.tippy-box[data-theme~='cyan-theme'] .tippy-arrow {
+    color: #36BA98; /* Arrow color should match the background color */
+  }
