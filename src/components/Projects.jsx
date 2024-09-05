@@ -93,7 +93,7 @@ function Projects() {
              delay: 0.1
            }}
           href='https://github.com/GaneshGardi/Music_Nextjs' id='tip1' className='relative z-10 '>
-            <img src='/src/assets/music.png' className='h-[250px] w-auto cursor-pointer m-0 p-0 hover:scale-125 duration-300 transition-transform' />  
+            <img src='/music.png' className='h-[250px] w-auto cursor-pointer m-0 p-0 hover:scale-125 duration-300 transition-transform' />  
           </motion.a>
           
           <div className='w-1/2 pl-12'>
@@ -181,7 +181,7 @@ function Projects() {
             delay: 0.1
           }}
           href='https://github.com/GaneshGardi/BookHub' id='tip2' className='relative z-10 '>
-            <img src='/src/assets/bookhub.png' className='h-[270px] w-auto cursor-pointer m-0 p-0 hover:scale-125 duration-300 transition-transform' />  
+            <img src='/bookhub.png' className='h-[270px] w-auto cursor-pointer m-0 p-0 hover:scale-125 duration-300 transition-transform' />  
           </motion.a>
           </div>
 
@@ -195,7 +195,7 @@ function Projects() {
           <div className='h-3 w-3 border-[3px] border-[#36BA98] rounded-full bg-black left-1/2 absolute z-10 -translate-x-1/2 -translate-y-[1px]'></div>
         
           <a href='https://github.com/GaneshGardi/Easy-Depot' id='tip3' className='relative z-10 hover:scale-125 duration-300 transition-ease-in-out'>
-            <img src='/src/assets/easydepot.png' className='h-[250px] w-auto cursor-pointer m-0 p-0 ' />  
+            <img src='/easydepot.png' className='h-[250px] w-auto cursor-pointer m-0 p-0 ' />  
           </a>
           
           <div className='w-1/2 pl-12'>

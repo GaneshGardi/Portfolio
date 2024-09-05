@@ -159,7 +159,7 @@ function About() {
           >
             <img
               className="w-[500px] h-[500px]"
-              src="src/assets/Designer.jpeg"
+              src="/Designer.jpeg"
               alt="Designer"
             />
           </motion.div>
