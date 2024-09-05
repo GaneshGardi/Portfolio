@@ -136,6 +136,17 @@ function About() {
                 </motion.div>
               </Tooltip>
             </div>
+            <motion.div
+            initial={{y: -70, opacity: 0}}
+            animate={{y: isAtTop ? 0 : -70, opacity: isAtTop ? 1 : 0}}
+            transition={{
+              duration:0.4,
+              delay: 0.2
+            }}
+            className="mt-12 cursor-pointer">
+
+              <a  href="Resume 1.pdf" className="mt-12 p-2 ml-8 text-xl border border-[#CD1818] hover:bg-[#CD1818] rounded-lg duration-300">Download Resume</a>
+            </motion.div>
           </div>
           <motion.div
             initial={{ x: 50, opacity: 0 }}
@@ -152,7 +163,10 @@ function About() {
               alt="Designer"
             />
           </motion.div>
+
+          
         </div>
+     
       </div>
     </section>
   );

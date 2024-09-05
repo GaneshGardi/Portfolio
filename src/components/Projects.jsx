@@ -92,8 +92,8 @@ function Projects() {
              duration: 0.3,
              delay: 0.1
            }}
-          href='https://github.com/GaneshGardi/Music_Nextjs' id='tip1' className='relative z-10 hover:scale-125 duration-300 transition-ease-in-out'>
-            <img src='/src/assets/music.png' className='h-[250px] w-auto cursor-pointer m-0 p-0 ' />  
+          href='https://github.com/GaneshGardi/Music_Nextjs' id='tip1' className='relative z-10 '>
+            <img src='/src/assets/music.png' className='h-[250px] w-auto cursor-pointer m-0 p-0 hover:scale-125 duration-300 transition-transform' />  
           </motion.a>
           
           <div className='w-1/2 pl-12'>
@@ -180,8 +180,8 @@ function Projects() {
             duration: 0.3,
             delay: 0.1
           }}
-          href='https://github.com/GaneshGardi/BookHub' id='tip2' className='relative z-10 hover:scale-125 duration-300 transition-ease-in-out'>
-            <img src='/src/assets/bookhub.png' className='h-[270px] w-auto cursor-pointer m-0 p-0 ' />  
+          href='https://github.com/GaneshGardi/BookHub' id='tip2' className='relative z-10 '>
+            <img src='/src/assets/bookhub.png' className='h-[270px] w-auto cursor-pointer m-0 p-0 hover:scale-125 duration-300 transition-transform' />  
           </motion.a>
           </div>
 
