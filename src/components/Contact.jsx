@@ -1,5 +1,11 @@
 
 import React from 'react';
+import { useState,useRef } from 'react';
+import {motion} from 'framer-motion'
+import Earth from './canvas/Earth';
+import StarsCanvas from './canvas/Stars';
+
+
 
 
 function Contact() {
@@ -37,28 +43,27 @@ function Contact() {
   return (
 
     <>
+
     <section id='contact'>
-    <form onSubmit={onSubmit} className='relative z-20 bg-[#0f0f0f] h-screen text-white flex justify-center items-center'>
-      <div className='w-[600px] h-[200px] flex justify-center items-center flex-col'>
-        <h1 className='text-7xl font-lato font-semibold'>Let's Connect</h1>
-        <div className='mt-12'>
-        <label htmlFor='email' className='flex justify-start items-start mb-2 text-2xl font-mono'>Email:</label>
-        <input type='email' placeholder='email@gmail.com' className='px-2 py-2 w-[500px] rounded-md bg-gray-600 outline-none' name='email' required></input>
-        </div>
-        <div className='mt-12'>
-        <label htmlFor='email' className='flex justify-start items-start mb-2 text-2xl font-mono'>Your Message:</label>
-        <textarea type='text' name='text' required placeholder='enter your message...' className='px-2 py-2 w-[500px] h-[200px] rounded-md bg-gray-600 outline-none'></textarea>
-        </div>
-        <div className='mt-12'>
-          <button className='text-white border border-[#00AD9A] hover:bg-[#00AD9A] duration-200 hover:text-black text-3xl w-[500px] py-3 rounded-lg font-cascadia font-semibold'>
-            Send
-          </button>
-        </div>
-        
-        
+      <div className='w-full relative bg-[#0f0f0f] z-40 h-screen text-white flex justify-between px-32 pt-20'>
+        <form onSubmit={onSubmit} className='w-[500px]'>
+          <h1 className='text-4xl font-lato font-semibold flex justify-center items-center'>Let's Connect</h1>
+          <div className='flex flex-col mt-12'>
+            <label className='text-xl font-mono mb-2'>Email</label>
+            <input placeholder='youremail@gmail.com' className='p-2 rounded-lg bg-slate-500 text-white outline-none' name='email'></input>
+            <label className='text-xl font-mono mb-2 mt-10' >Message</label>
+            <textarea name='text' placeholder='Enter you message'
+            className='p-2 rounded-lg bg-slate-500 text-white h-[200px]'></textarea>
+          </div>
+          <button className='mt-8 bg-none w-full outline outline-[#00AD9A] rounded-lg p-3 text-2xl hover:bg-[#00AD9A] duration-300'>Send</button>
+        </form>
+       
+       <div className='w-1/2'>
+
+        <Earth/>
+        <StarsCanvas/>
+       </div>
       </div>
-    </form>
- 
     </section>
     
     </>
